@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9807AB11B038BB000CA37C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB01B038BB000CA37C8 /* main.m */; };
+		C9807AB41B038BB000CA37C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB31B038BB000CA37C8 /* AppDelegate.m */; };
+		C9807AB71B038BB000CA37C8 /* FinanceManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB51B038BB000CA37C8 /* FinanceManager.xcdatamodeld */; };
+		C9807ABA1B038BB000CA37C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB91B038BB000CA37C8 /* ViewController.m */; };
+		C9807ABD1B038BB000CA37C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9807ABB1B038BB000CA37C8 /* Main.storyboard */; };
+		C9807ABF1B038BB000CA37C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9807ABE1B038BB000CA37C8 /* Images.xcassets */; };
+		C9807AC21B038BB000CA37C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9807AC01B038BB000CA37C8 /* LaunchScreen.xib */; };
+		C9807ACE1B038BB000CA37C8 /* FinanceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807ACD1B038BB000CA37C8 /* FinanceManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9807AC81B038BB000CA37C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9807AA31B038BB000CA37C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9807AAA1B038BB000CA37C8;
+			remoteInfo = FinanceManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9807AAB1B038BB000CA37C8 /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9807AAF1B038BB000CA37C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9807AB01B038BB000CA37C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9807AB21B038BB000CA37C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9807AB31B038BB000CA37C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9807AB61B038BB000CA37C8 /* FinanceManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinanceManager.xcdatamodel; sourceTree = "<group>"; };
+		C9807AB81B038BB000CA37C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9807AB91B038BB000CA37C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9807ABC1B038BB000CA37C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9807ABE1B038BB000CA37C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9807AC11B038BB000CA37C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C9807AC71B038BB000CA37C8 /* FinanceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9807ACC1B038BB000CA37C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9807ACD1B038BB000CA37C8 /* FinanceManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinanceManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9807AA81B038BB000CA37C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9807AC41B038BB000CA37C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9807AA21B038BB000CA37C8 = {
+			isa = PBXGroup;
+			children = (
+				C9807AAD1B038BB000CA37C8 /* FinanceManager */,
+				C9807ACA1B038BB000CA37C8 /* FinanceManagerTests */,
+				C9807AAC1B038BB000CA37C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9807AAC1B038BB000CA37C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9807AAB1B038BB000CA37C8 /* FinanceManager.app */,
+				C9807AC71B038BB000CA37C8 /* FinanceManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9807AAD1B038BB000CA37C8 /* FinanceManager */ = {
+			isa = PBXGroup;
+			children = (
+				C9807AB21B038BB000CA37C8 /* AppDelegate.h */,
+				C9807AB31B038BB000CA37C8 /* AppDelegate.m */,
+				C9807AB81B038BB000CA37C8 /* ViewController.h */,
+				C9807AB91B038BB000CA37C8 /* ViewController.m */,
+				C9807ABB1B038BB000CA37C8 /* Main.storyboard */,
+				C9807ABE1B038BB000CA37C8 /* Images.xcassets */,
+				C9807AC01B038BB000CA37C8 /* LaunchScreen.xib */,
+				C9807AB51B038BB000CA37C8 /* FinanceManager.xcdatamodeld */,
+				C9807AAE1B038BB000CA37C8 /* Supporting Files */,
+			);
+			path = FinanceManager;
+			sourceTree = "<group>";
+		};
+		C9807AAE1B038BB000CA37C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9807AAF1B038BB000CA37C8 /* Info.plist */,
+				C9807AB01B038BB000CA37C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9807ACA1B038BB000CA37C8 /* FinanceManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9807ACD1B038BB000CA37C8 /* FinanceManagerTests.m */,
+				C9807ACB1B038BB000CA37C8 /* Supporting Files */,
+			);
+			path = FinanceManagerTests;
+			sourceTree = "<group>";
+		};
+		C9807ACB1B038BB000CA37C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9807ACC1B038BB000CA37C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9807AAA1B038BB000CA37C8 /* FinanceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9807AD11B038BB000CA37C8 /* Build configuration list for PBXNativeTarget "FinanceManager" */;
+			buildPhases = (
+				C9807AA71B038BB000CA37C8 /* Sources */,
+				C9807AA81B038BB000CA37C8 /* Frameworks */,
+				C9807AA91B038BB000CA37C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceManager;
+			productName = FinanceManager;
+			productReference = C9807AAB1B038BB000CA37C8 /* FinanceManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9807AC61B038BB000CA37C8 /* FinanceManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9807AD41B038BB000CA37C8 /* Build configuration list for PBXNativeTarget "FinanceManagerTests" */;
+			buildPhases = (
+				C9807AC31B038BB000CA37C8 /* Sources */,
+				C9807AC41B038BB000CA37C8 /* Frameworks */,
+				C9807AC51B038BB000CA37C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9807AC91B038BB000CA37C8 /* PBXTargetDependency */,
+			);
+			name = FinanceManagerTests;
+			productName = FinanceManagerTests;
+			productReference = C9807AC71B038BB000CA37C8 /* FinanceManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9807AA31B038BB000CA37C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Rahim Baraky";
+				TargetAttributes = {
+					C9807AAA1B038BB000CA37C8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C9807AC61B038BB000CA37C8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C9807AAA1B038BB000CA37C8;
+					};
+				};
+			};
+			buildConfigurationList = C9807AA61B038BB000CA37C8 /* Build configuration list for PBXProject "FinanceManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9807AA21B038BB000CA37C8;
+			productRefGroup = C9807AAC1B038BB000CA37C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9807AAA1B038BB000CA37C8 /* FinanceManager */,
+				C9807AC61B038BB000CA37C8 /* FinanceManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9807AA91B038BB000CA37C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9807ABD1B038BB000CA37C8 /* Main.storyboard in Resources */,
+				C9807AC21B038BB000CA37C8 /* LaunchScreen.xib in Resources */,
+				C9807ABF1B038BB000CA37C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9807AC51B038BB000CA37C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9807AA71B038BB000CA37C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9807AB41B038BB000CA37C8 /* AppDelegate.m in Sources */,
+				C9807AB11B038BB000CA37C8 /* main.m in Sources */,
+				C9807ABA1B038BB000CA37C8 /* ViewController.m in Sources */,
+				C9807AB71B038BB000CA37C8 /* FinanceManager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9807AC31B038BB000CA37C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9807ACE1B038BB000CA37C8 /* FinanceManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9807AC91B038BB000CA37C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9807AAA1B038BB000CA37C8 /* FinanceManager */;
+			targetProxy = C9807AC81B038BB000CA37C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9807ABB1B038BB000CA37C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9807ABC1B038BB000CA37C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9807AC01B038BB000CA37C8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9807AC11B038BB000CA37C8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9807ACF1B038BB000CA37C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9807AD01B038BB000CA37C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9807AD21B038BB000CA37C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9807AD31B038BB000CA37C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9807AD51B038BB000CA37C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FinanceManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceManager.app/FinanceManager";
+			};
+			name = Debug;
+		};
+		C9807AD61B038BB000CA37C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FinanceManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinanceManager.app/FinanceManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9807AA61B038BB000CA37C8 /* Build configuration list for PBXProject "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9807ACF1B038BB000CA37C8 /* Debug */,
+				C9807AD01B038BB000CA37C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9807AD11B038BB000CA37C8 /* Build configuration list for PBXNativeTarget "FinanceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9807AD21B038BB000CA37C8 /* Debug */,
+				C9807AD31B038BB000CA37C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9807AD41B038BB000CA37C8 /* Build configuration list for PBXNativeTarget "FinanceManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9807AD51B038BB000CA37C8 /* Debug */,
+				C9807AD61B038BB000CA37C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9807AB51B038BB000CA37C8 /* FinanceManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9807AB61B038BB000CA37C8 /* FinanceManager.xcdatamodel */,
+			);
+			currentVersion = C9807AB61B038BB000CA37C8 /* FinanceManager.xcdatamodel */;
+			path = FinanceManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9807AA31B038BB000CA37C8 /* Project object */;
+}
