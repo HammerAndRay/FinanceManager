@@ -7,17 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C943BBA81B099ABE004D7791 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C943BBA71B099ABE004D7791 /* QuartzCore.framework */; };
+		C943BBB11B099B47004D7791 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C943BBB01B099B30004D7791 /* libCorePlot-CocoaTouch.a */; };
+		C95630441B097BEE00CCEC61 /* View4.m in Sources */ = {isa = PBXBuildFile; fileRef = C95630431B097BEE00CCEC61 /* View4.m */; };
+		C96BFF831B07D6A000044D00 /* CategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BFF821B07D6A000044D00 /* CategoryView.m */; };
+		C96BFF861B07D71D00044D00 /* AddCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96BFF851B07D71D00044D00 /* AddCategoryView.m */; };
 		C9807AB11B038BB000CA37C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB01B038BB000CA37C8 /* main.m */; };
 		C9807AB41B038BB000CA37C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB31B038BB000CA37C8 /* AppDelegate.m */; };
 		C9807AB71B038BB000CA37C8 /* FinanceManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB51B038BB000CA37C8 /* FinanceManager.xcdatamodeld */; };
-		C9807ABA1B038BB000CA37C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AB91B038BB000CA37C8 /* ViewController.m */; };
 		C9807ABD1B038BB000CA37C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9807ABB1B038BB000CA37C8 /* Main.storyboard */; };
 		C9807ABF1B038BB000CA37C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9807ABE1B038BB000CA37C8 /* Images.xcassets */; };
 		C9807AC21B038BB000CA37C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9807AC01B038BB000CA37C8 /* LaunchScreen.xib */; };
 		C9807ACE1B038BB000CA37C8 /* FinanceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807ACD1B038BB000CA37C8 /* FinanceManagerTests.m */; };
+		C9807ADE1B03929B00CA37C8 /* TabController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807ADD1B03929B00CA37C8 /* TabController.m */; };
+		C9807AE41B03E77F00CA37C8 /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AE31B03E77F00CA37C8 /* Brain.m */; };
+		C9807AE71B03E80C00CA37C8 /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AE61B03E80C00CA37C8 /* View1.m */; };
+		C9807AEA1B03E8BD00CA37C8 /* View5.m in Sources */ = {isa = PBXBuildFile; fileRef = C9807AE91B03E8BD00CA37C8 /* View5.m */; };
+		C9FC8D241B06729100511E26 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FC8D231B06729100511E26 /* View2.m */; };
+		C9FC8D271B0698AF00511E26 /* View2-2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FC8D261B0698AF00511E26 /* View2-2.m */; };
+		C9FC8D2A1B069DBA00511E26 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FC8D291B069DBA00511E26 /* View3.m */; };
+		C9FC8D2D1B069DE100511E26 /* View3-2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FC8D2C1B069DE100511E26 /* View3-2.m */; };
+		C9FC8D361B06AFA800511E26 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FC8D351B06AFA800511E26 /* TableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C943BBAF1B099B30004D7791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C943BBA91B099B30004D7791 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		C943BBB21B099B8E004D7791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C943BBA91B099B30004D7791 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
 		C9807AC81B038BB000CA37C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9807AA31B038BB000CA37C8 /* Project object */;
@@ -28,20 +55,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C943BBA71B099ABE004D7791 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C943BBA91B099B30004D7791 /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "../../../../../../../Downloads/CorePlot_1.5/Source/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		C95630421B097BEE00CCEC61 /* View4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View4.h; sourceTree = "<group>"; };
+		C95630431B097BEE00CCEC61 /* View4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View4.m; sourceTree = "<group>"; };
+		C96BFF811B07D6A000044D00 /* CategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryView.h; sourceTree = "<group>"; };
+		C96BFF821B07D6A000044D00 /* CategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryView.m; sourceTree = "<group>"; };
+		C96BFF841B07D71D00044D00 /* AddCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoryView.h; sourceTree = "<group>"; };
+		C96BFF851B07D71D00044D00 /* AddCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoryView.m; sourceTree = "<group>"; };
 		C9807AAB1B038BB000CA37C8 /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9807AAF1B038BB000CA37C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9807AB01B038BB000CA37C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9807AB21B038BB000CA37C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9807AB31B038BB000CA37C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9807AB61B038BB000CA37C8 /* FinanceManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinanceManager.xcdatamodel; sourceTree = "<group>"; };
-		C9807AB81B038BB000CA37C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C9807AB91B038BB000CA37C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C9807ABC1B038BB000CA37C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9807ABE1B038BB000CA37C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C9807AC11B038BB000CA37C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C9807AC71B038BB000CA37C8 /* FinanceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9807ACC1B038BB000CA37C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9807ACD1B038BB000CA37C8 /* FinanceManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinanceManagerTests.m; sourceTree = "<group>"; };
+		C9807ADC1B03928C00CA37C8 /* TabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabController.h; sourceTree = "<group>"; };
+		C9807ADD1B03929B00CA37C8 /* TabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabController.m; sourceTree = "<group>"; };
+		C9807AE21B03E75600CA37C8 /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brain.h; sourceTree = "<group>"; };
+		C9807AE31B03E77F00CA37C8 /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brain.m; sourceTree = "<group>"; };
+		C9807AE51B03E80C00CA37C8 /* View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
+		C9807AE61B03E80C00CA37C8 /* View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
+		C9807AE81B03E8BD00CA37C8 /* View5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View5.h; sourceTree = "<group>"; };
+		C9807AE91B03E8BD00CA37C8 /* View5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View5.m; sourceTree = "<group>"; };
+		C9FC8D221B06729100511E26 /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
+		C9FC8D231B06729100511E26 /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
+		C9FC8D251B0698AF00511E26 /* View2-2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View2-2.h"; sourceTree = "<group>"; };
+		C9FC8D261B0698AF00511E26 /* View2-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View2-2.m"; sourceTree = "<group>"; };
+		C9FC8D281B069DBA00511E26 /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
+		C9FC8D291B069DBA00511E26 /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
+		C9FC8D2B1B069DE100511E26 /* View3-2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View3-2.h"; sourceTree = "<group>"; };
+		C9FC8D2C1B069DE100511E26 /* View3-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View3-2.m"; sourceTree = "<group>"; };
+		C9FC8D341B06AFA800511E26 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		C9FC8D351B06AFA800511E26 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C943BBB11B099B47004D7791 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				C943BBA81B099ABE004D7791 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C943BBAA1B099B30004D7791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C943BBB01B099B30004D7791 /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C9807AA21B038BB000CA37C8 = {
 			isa = PBXGroup;
 			children = (
+				C943BBA91B099B30004D7791 /* CorePlot-CocoaTouch.xcodeproj */,
+				C943BBA71B099ABE004D7791 /* QuartzCore.framework */,
 				C9807AAD1B038BB000CA37C8 /* FinanceManager */,
 				C9807ACA1B038BB000CA37C8 /* FinanceManagerTests */,
 				C9807AAC1B038BB000CA37C8 /* Products */,
@@ -85,8 +148,30 @@
 			children = (
 				C9807AB21B038BB000CA37C8 /* AppDelegate.h */,
 				C9807AB31B038BB000CA37C8 /* AppDelegate.m */,
-				C9807AB81B038BB000CA37C8 /* ViewController.h */,
-				C9807AB91B038BB000CA37C8 /* ViewController.m */,
+				C9807ADC1B03928C00CA37C8 /* TabController.h */,
+				C9807ADD1B03929B00CA37C8 /* TabController.m */,
+				C96BFF811B07D6A000044D00 /* CategoryView.h */,
+				C96BFF821B07D6A000044D00 /* CategoryView.m */,
+				C96BFF841B07D71D00044D00 /* AddCategoryView.h */,
+				C96BFF851B07D71D00044D00 /* AddCategoryView.m */,
+				C9807AE51B03E80C00CA37C8 /* View1.h */,
+				C9807AE61B03E80C00CA37C8 /* View1.m */,
+				C9FC8D221B06729100511E26 /* View2.h */,
+				C9FC8D231B06729100511E26 /* View2.m */,
+				C9FC8D251B0698AF00511E26 /* View2-2.h */,
+				C9FC8D261B0698AF00511E26 /* View2-2.m */,
+				C9FC8D281B069DBA00511E26 /* View3.h */,
+				C9FC8D291B069DBA00511E26 /* View3.m */,
+				C9FC8D2B1B069DE100511E26 /* View3-2.h */,
+				C9FC8D2C1B069DE100511E26 /* View3-2.m */,
+				C95630421B097BEE00CCEC61 /* View4.h */,
+				C95630431B097BEE00CCEC61 /* View4.m */,
+				C9807AE81B03E8BD00CA37C8 /* View5.h */,
+				C9807AE91B03E8BD00CA37C8 /* View5.m */,
+				C9FC8D341B06AFA800511E26 /* TableCell.h */,
+				C9FC8D351B06AFA800511E26 /* TableCell.m */,
+				C9807AE21B03E75600CA37C8 /* Brain.h */,
+				C9807AE31B03E77F00CA37C8 /* Brain.m */,
 				C9807ABB1B038BB000CA37C8 /* Main.storyboard */,
 				C9807ABE1B038BB000CA37C8 /* Images.xcassets */,
 				C9807AC01B038BB000CA37C8 /* LaunchScreen.xib */,
@@ -136,6 +221,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C943BBB31B099B8E004D7791 /* PBXTargetDependency */,
 			);
 			name = FinanceManager;
 			productName = FinanceManager;
@@ -189,6 +275,12 @@
 			mainGroup = C9807AA21B038BB000CA37C8;
 			productRefGroup = C9807AAC1B038BB000CA37C8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C943BBAA1B099B30004D7791 /* Products */;
+					ProjectRef = C943BBA91B099B30004D7791 /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C9807AAA1B038BB000CA37C8 /* FinanceManager */,
@@ -196,6 +288,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C943BBB01B099B30004D7791 /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = C943BBAF1B099B30004D7791 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C9807AA91B038BB000CA37C8 /* Resources */ = {
@@ -223,8 +325,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9807AB41B038BB000CA37C8 /* AppDelegate.m in Sources */,
+				C95630441B097BEE00CCEC61 /* View4.m in Sources */,
+				C9807ADE1B03929B00CA37C8 /* TabController.m in Sources */,
+				C96BFF831B07D6A000044D00 /* CategoryView.m in Sources */,
+				C96BFF861B07D71D00044D00 /* AddCategoryView.m in Sources */,
+				C9807AEA1B03E8BD00CA37C8 /* View5.m in Sources */,
+				C9FC8D361B06AFA800511E26 /* TableCell.m in Sources */,
+				C9FC8D241B06729100511E26 /* View2.m in Sources */,
 				C9807AB11B038BB000CA37C8 /* main.m in Sources */,
-				C9807ABA1B038BB000CA37C8 /* ViewController.m in Sources */,
+				C9FC8D2D1B069DE100511E26 /* View3-2.m in Sources */,
+				C9FC8D2A1B069DBA00511E26 /* View3.m in Sources */,
+				C9807AE41B03E77F00CA37C8 /* Brain.m in Sources */,
+				C9807AE71B03E80C00CA37C8 /* View1.m in Sources */,
+				C9FC8D271B0698AF00511E26 /* View2-2.m in Sources */,
 				C9807AB71B038BB000CA37C8 /* FinanceManager.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +353,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C943BBB31B099B8E004D7791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = C943BBB21B099B8E004D7791 /* PBXContainerItemProxy */;
+		};
 		C9807AC91B038BB000CA37C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9807AAA1B038BB000CA37C8 /* FinanceManager */;
@@ -351,8 +469,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Toolchains/build/Debug",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/Rahim/Downloads/CorePlot_1.5\n\n/Users/Rahim/Downloads/CorePlot_1.5\n\n/Users/Rahim/Downloads/CorePlot_1.5/**",
+				);
 				INFOPLIST_FILE = FinanceManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Rahim/Downloads/core-plot-master",
+					"2/framework/build/Release-universal",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,8 +494,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_DIR)/Toolchains/build/Debug",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/Rahim/Downloads/CorePlot_1.5\n\n/Users/Rahim/Downloads/CorePlot_1.5\n\n/Users/Rahim/Downloads/CorePlot_1.5/**",
+				);
 				INFOPLIST_FILE = FinanceManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Rahim/Downloads/core-plot-master",
+					"2/framework/build/Release-universal",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -420,6 +568,7 @@
 				C9807AD31B038BB000CA37C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9807AD41B038BB000CA37C8 /* Build configuration list for PBXNativeTarget "FinanceManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +577,7 @@
 				C9807AD61B038BB000CA37C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
